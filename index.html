@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #9b1e4a;
+      }
+      .sub-container {
+        margin: 130px 200px;
+        border: 2px solid black;
+        background-color: #c2255c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: 0 0 8px 2px;
+      }
+      .counter {
+        font-size: 40px;
+        font-weight: 500;
+        padding: 20px;
+        font-style: normal;
+        background-color: #c2255c;
+        border-radius: 30px;
+        margin-top: 10px;
+        border: 2px solid black;
+        color: white;
+        box-shadow: 0 0 8px 2px;
+      }
+      .counter-number {
+        font-size: 90px;
+        padding-top: 30px;
+      }
+      .inc-dec {
+        display: flex;
+        justify-content: space-around;
+        gap: 230px;
+        padding: 60px;
+      }
+      .lower {
+        padding: 10px;
+        font-size: 22px;
+        font-weight: 400;
+        border-radius: 30px;
+        background-color: rgb(92, 201, 164);
+        box-shadow: 0 0 8px 2px;
+      }
+      .higher {
+        padding: 10px;
+        font-size: 22px;
+        font-weight: 400;
+        border-radius: 30px;
+        background-color: rgb(92, 201, 164);
+        box-shadow: 0 0 8px 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub-container">
+        <div class="counter">COUNTER</div>
+        <div class="counter-number">0</div>
+        <div class="inc-dec">
+          <button class="lower buttons">Decrese Count</button>
+          <button class="higher buttons">Increase Count</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
